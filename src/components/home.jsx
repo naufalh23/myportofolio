@@ -11,7 +11,9 @@ export default function Home() {
               <h1 className="text-[32px] font-semibold text-second mb-[23px]">Full Stack Web Development</h1>
               <p className="text-justify text-2xl text-second max-w-[457px] mb-[57px]">I am committed to finding innovative solutions and continuously experimenting to help my clients achieve their goals.
               </p>
-              <button className="rounded-lg border-4 border-primary bg-gradient-to-r from-primary to-gradien shadow-md shadow-blue-100/25 w-[175px] h-[60px] text-second text-xl font-bold border-spacing-1 mb-[72px] hover:opacity-80 transition duration-300 ease-in-out">Let's Talk</button>
+              <a href="#contact" className="scroll-smooth">
+                <button className="rounded-lg border-4 border-primary bg-gradient-to-r from-primary to-gradien shadow-md shadow-blue-100/25 w-[175px] h-[60px] text-second text-xl font-bold border-spacing-1 mb-[72px] hover:opacity-80 transition duration-300 ease-in-out">Let's Talk</button>
+              </a>
               <div className="flex items-center text-2xl text-second font-medium">Check out My
                 <span className="ml-3.5">
                 {/* Linkedin */}
@@ -33,6 +35,10 @@ export default function Home() {
           </div>
         </div>
 
+      <a href="#home" class="fixed bottom-4 right-4 z-[9999] flex h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse" id="to-top">
+      <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+      </a>
       </section> 
+      
     )
 }
