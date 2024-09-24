@@ -1,3 +1,5 @@
+import img from "../img/p1.png"
+
 export default function Porto() {
     return (
         <section id="porto" className="pt-20">
@@ -12,7 +14,7 @@ export default function Porto() {
                 <div className="w-full mt-[71px] flex flex-wrap justify-center">
                     <div className="p-8 w-[704px] h-auto ring-2 ring-primary rounded-3xl bg-boxproject">
                         <div className="flex justify-center">
-                            <img src="src/img/p1.png" alt="porto1" width="auto" />
+                            <img src={img} alt="porto1" width="auto" />
                         </div>
                         <h3 className="text-center text-second text-2xl font-semibold pt-3 mb-auto">Project 1</h3>
                     </div>
